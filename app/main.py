@@ -21,7 +21,7 @@ app.include_router(version.router, prefix="/version", tags=["Version"])
 app.include_router(analyze.router, prefix="/api", tags=["Sentiment Analysis"])
 app.include_router(generate.router, prefix="/api", tags=["Generative AI"])
 
-@app.get("/")
+@app.get("/", tags=["Root"])
 def root():
     return {
         "message": "The Last Eyes API está rodando!",
