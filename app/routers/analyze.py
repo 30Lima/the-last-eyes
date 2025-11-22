@@ -10,12 +10,13 @@ analyzer = SentimentAnalyzer()
 @router.post("/analyze")
 async def analyze(payload: AnalysisInput):
     """
-    Recebe { text, userId? } e retorna { sentiment, score, text }.
+    Recebe { text, userId } e retorna { sentiment, score, text }.
     """
     try:
         text = payload.text
         label, score = analyzer.analyze(text)
         return {
+            "userId": payload.userId,
             "text": text,
             "sentiment": label,
             "score": score
