@@ -4,7 +4,7 @@ from app.models.generate_input import GenerateInput
 from app.models.generate_output import GenerateOutput
 from app.services.gemini_service import generate_text
 
-router = APIRouter(tags=["Generate"])
+router = APIRouter(tags=["Generative AI"])
 
 @router.post("/generate", response_model=GenerateOutput)
 async def generate(payload: GenerateInput):
