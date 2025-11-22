@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from app.models.analysis_input import AnalysisInput
 from app.services.sentiment_analyzer import SentimentAnalyzer
 
-router = APIRouter(tags=["Analyze"])
+router = APIRouter(tags=["Sentiment Analysis"])
 analyzer = SentimentAnalyzer()
 
 @router.post("/analyze")

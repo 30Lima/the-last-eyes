@@ -25,7 +25,6 @@ class SentimentAnalyzer:
         Se o modelo não estiver disponível, retorna fallback.
         """
         if not self.model:
-            # fallback leve (mock)
             lower = text.lower()
             if any(w in lower for w in ["bom", "bem", "feliz", "motivad", "excelente"]):
                 return "positivo", 0.6
@@ -34,7 +33,6 @@ class SentimentAnalyzer:
             return "neutro", 0.5
 
         pred = self.model.predict([text])[0]
-        # tenta pegar probabilidade (se disponível)
         try:
             proba = max(self.model.predict_proba([text])[0])
         except Exception:

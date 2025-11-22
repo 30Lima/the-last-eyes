@@ -4,7 +4,6 @@ import os
 
 router = APIRouter(tags=["Version"])
 
-# placeholder: vazio por padrão; pronto para preencher via CI/CD
 COMMIT_HASH = os.getenv("BUILD_COMMIT", "")
 
 @router.get("/")
