@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Exposing the default render port
-EXPOSE 10000
+EXPOSE 10000   # Render substitui a porta automaticamente pela variável ${PORT}
 
 # Starting FastAPI
-CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT}"]
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT}"]
