@@ -1,6 +1,6 @@
 FROM python:3.10-slim
 
-WORKDIR /app
+WORKDIR /code
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
@@ -14,4 +14,4 @@ COPY . .
 
 EXPOSE 10000
 
-CMD uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000} --log-level debug
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "10000"]
