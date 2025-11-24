@@ -2,7 +2,7 @@
 > Solução para a global solution promovido pela FIAP (Disruptive Architectures)
 
 ## Descrição da solução geral
-The Last Eyes é um aplicativo é voltado para a saúde mental de colaboradores, oferecendo suporte diário para bem-estar emocional. Ele é integrado com inteligência artificial, que fornece conselhos personalizados e dicas práticas com base no humor do usuário. Além disso, o app conta com uma página de livros, indicando leituras clássicas que podem inspirar e relaxar, e uma página de hobbies, sugerindo novas atividades para estimular o aprendizado e o lazer.
+The Last Eyes é um aplicativo voltado para a saúde mental de colaboradores, oferecendo suporte diário para bem-estar emocional. Ele é integrado com inteligência artificial, que fornece conselhos personalizados e dicas práticas com base no humor do usuário. Além disso, o app conta com uma página de livros, indicando leituras clássicas que podem inspirar e relaxar, e uma página de hobbies, sugerindo novas atividades para estimular o aprendizado e o lazer.
 
 ## Descrição da solução IoT
 A solução IoT proposta integra diferentes componentes tecnológicos para fornecer funcionalidades avançadas de análise e inteligência. Ela consiste em uma API central, que serve como ponto de integração para aplicações desenvolvidas nas disciplinas de Java e Mobile, permitindo que os dados e serviços da IoT sejam consumidos de maneira padronizada.
