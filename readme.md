@@ -16,7 +16,7 @@ Dessa forma, a solução permite que os sistemas Java e Mobile integrem funciona
 ### 🚀 Deploy (Produção)
 A API já está publicada e rodando no Render. Você pode testar os endpoints diretamente pelo link abaixo:
 
-🔗 Swagger UI: https://the-last-eyes-api.onrender.com/docs
+🔗 Fast API: https://the-last-eyes-api.onrender.com/docs
 
 ## Integrantes
 
@@ -26,9 +26,9 @@ A API já está publicada e rodando no Render. Você pode testar os endpoints di
 | Vitor Gomes Martins         | 558244  |
 | Leonardo Pimentel Santos    | 557541  |
 
-### Link do PITCH
+### Link do PITCH (IoT)
 ```bash
-Inserir o link aqui futuramente (em modo não listado)
+https://youtu.be/LPq581B_g28
 ```
 
 ## 4. Estrutura do Projeto
